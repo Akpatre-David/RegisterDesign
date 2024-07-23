@@ -1,0 +1,13 @@
+input {
+  border-bottom: 1px solid grey;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+
+  --color-error-red: #dc1e38;
+}
+
+.error {
+  color: red;
+  font-size: 0.5rem;
+}

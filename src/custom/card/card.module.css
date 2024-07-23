@@ -1,0 +1,12 @@
+.card {
+  box-shadow: 0 0 15px 2px #10192808, 0px 6px 24px -5px #10192814;
+  background: white;
+  width: 500px;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+
+  @media screen and (max-width: 750px) {
+    width: 300px;
+  }
+}
